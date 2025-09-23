@@ -1,3 +1,4 @@
+// Bibliotecas para manipulação de arquivos, strings, vetores, geração de numeros randomicos e input output
 #include <fstream>
 #include <string>
 #include <functional>
