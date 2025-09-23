@@ -15,12 +15,12 @@ void bubbleSort(int arr[], int len){
   while(trocou){
     trocou = 0;
     for(i = 0; i < m; i++){ //cada varredura
-      if(arr[i] > arr[i+1]){
+      if(arr[i] > arr[i+1]){ //checa se o atual eh maior q o prox para trocar
         temp = arr[i];
         arr[i] = arr[i+1];
         arr[i+1] = temp;
         trocou = 1;
-        k = i ;
+        k = i;
       }
     }
     m = k;
